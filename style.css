@@ -1,0 +1,154 @@
+body, * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-color: #000;
+    /*background-image: linear-gradient(to right, #0500FF, #F8FB76, #4EFF75, #00FFD1)*/
+}
+
+body{
+    background-color: rgba(246, 250, 255, 0.9);
+}
+
+.container {
+    margin: 10px;
+    padding: 5em 8em;
+}
+
+.container header nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo h1 {
+    font-size: 2em;
+}
+
+.nav_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_items {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_items li a{
+    padding: 0 1rem;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+
+section, .featured_jobs {
+    margin: 4em 0;
+}
+
+nav .sign_up{
+    padding: .8em 1.6em;
+    border: 2px solid #000;
+    background-color: none;
+}
+
+nav .sign_up a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.main_copy, .featured_jobs{
+    margin-top: 10em;
+}
+
+.main_copy h1{
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_copy p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 2em;
+}
+.explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore button {
+    background-color: #001AFF;
+    color: white;
+    border-radius: 2.3em;
+    border: none;
+}
+
+.explore button, 
+.explore a,
+.featured_jobs h2 {
+    padding: 1.2em 1.8em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.featured_jobs .cards{
+    padding: 1.2em 1.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: .7em;
+    padding: 1.2em;
+}
+
+.card:hover {
+    background-color: #001AFF;
+    color: white;
+}
+.intro .img_container1 {
+    background-color: #001AFF;
+}
+.intro {
+    display: flex;
+}
+
+.intro .img_container2{
+    background-color: #fff;
+}
+
+.intro .img_container3{
+    background-color: #000;
+}
+
+.img_container1, .img_container2, .img_container3 {
+    width: 4em;
+    height: 3.5em;
+    border-radius: .7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5em;
+}
+.intro img {
+    height: 33px;
+    width: 22px;
+}
