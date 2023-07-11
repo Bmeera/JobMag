@@ -112,27 +112,28 @@ nav .sign_up a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1.7em;
 }
 
 .card{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: .7em;
-    padding: 1.2em;
+    padding: 1.3em;
 }
 
-.card:hover {
+.card:first-child {
     background-color: #001AFF;
     color: white;
 }
 .intro .img_container1 {
-    background-color: #001AFF;
+    background-color: #fff;
 }
 .intro {
     display: flex;
 }
 
 .intro .img_container2{
-    background-color: #fff;
+    background-color: rgba(24, 119, 242, 1);
 }
 
 .intro .img_container3{
@@ -148,7 +149,28 @@ nav .sign_up a{
     align-items: center;
     margin-right: .5em;
 }
-.intro img {
-    height: 33px;
-    width: 22px;
+
+.intro .job_title{
+    padding: .3em;
+}
+.job_description{
+    margin: 1.2em 0;
+}
+.job_addi_details{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.job_addi_details .skill {
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 1.8em;
+    padding: .8em 1.2em;
+}
+
+.job_addi_details .first{
+    background-color: rgba(255, 255, 255, 0.15);
 }
